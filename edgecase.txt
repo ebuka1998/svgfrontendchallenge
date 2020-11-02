@@ -1,0 +1,13 @@
+Some edge cases that could go wrong
+
+A user when computing the radius of the circle can give a large figure and that would make the 
+radius of the circle to go beyond the specified cy and cx in the svg. to solve this I provided
+a dropdown so that they can select to a given range of values.
+
+when drawing a square a user might specify different lengths of values for the height and lengths
+
+drawing a polygon uses points. A user might not know how to compute the points but an example was given
+as a placeholder.
+
+the value is stored as objects in localstorage, if this is deleted and on refresh the app will loose its
+persistance but as soon as a user starts drawing, it will save again and it will persist.
